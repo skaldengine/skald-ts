@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "./source",
+    "paths": {
+      "*": ["*"],
+      "skald/*": ["skald/*"],
+      "@skald/*": ["skald/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
